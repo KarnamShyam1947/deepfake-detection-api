@@ -16,7 +16,7 @@ RUN pip install gunicorn
 
 COPY . .
 
-EXPOSE 5050
+EXPOSE 8000
 
 CMD ["gunicorn", "-c", "gunicorn_conf.py", "app:app"]
 
