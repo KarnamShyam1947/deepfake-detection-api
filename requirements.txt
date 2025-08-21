@@ -1,0 +1,10 @@
+cloudinary
+Flask
+opencv-python
+flask-cors
+flask-restx
+python-dotenv
+referencing
+requests
+matplotlib
+numpy==1.22.0
