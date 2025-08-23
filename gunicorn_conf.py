@@ -6,3 +6,6 @@ timeout = 600  # allow model load and inference
 preload_app = True
 max_requests = 100
 max_requests_jitter = 10
+accesslog = "-"   # same as --access-logfile -
+errorlog  = "-"   # same as --error-logfile -
+loglevel  = "info"

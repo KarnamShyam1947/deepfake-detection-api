@@ -8,3 +8,4 @@ referencing
 requests
 matplotlib
 numpy==1.22.0
+imageio[ffmpeg]
