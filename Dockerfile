@@ -16,8 +16,10 @@ RUN pip install gunicorn
 
 COPY . .
 
-EXPOSE 8000
+EXPOSE 5050
+# EXPOSE 8000
 
-CMD ["gunicorn", "-c", "gunicorn_conf.py", "app:app"]
+CMD ["python", "-m", "flask", "run"]
+# CMD ["gunicorn", "-c", "gunicorn_conf.py", "app:app"]
 
 
